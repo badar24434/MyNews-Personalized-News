@@ -1,0 +1,29 @@
+.searchBar {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .searchInput {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .searchButton {
+    padding: 0.5rem 2rem;
+    font-size: 1.25rem;
+    margin-left: 0.25rem;
+    background: linear-gradient(90deg, #0394b4, #6de9ff);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .searchButton:hover {
+    background: linear-gradient(90deg,  #3c8a98, #243033);
+  } 

@@ -1,0 +1,100 @@
+.header {
+    gap: 3rem;
+    margin: 3rem auto 5rem auto;
+    width: 90%;
+    max-width: 75rem;
+    color: #ddd6cb;
+    font-size: 1.5rem;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.highlight {
+    background: linear-gradient(90deg, #0394b4, #6de9ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header p {
+    margin: 0;
+}
+
+.cta a {
+    display: inline-block;  
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #25adec, #54e5ff);
+    color: #ffffff;
+    font-weight: bold;
+    
+    text-decoration: none;
+}
+
+.button {
+  border: 0;
+  padding: 0.75rem 2rem;
+  background: linear-gradient(90deg, #f9572a, #ff9b05);
+  color: #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.25rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 0.5rem;
+}
+
+.button:hover,
+.button:focus {
+  background: linear-gradient(90deg, #fd4715, #f9b241);
+}
+
+.button.active {
+  background: linear-gradient(90deg, #05e2ff, #31e2f9);
+}
+
+.button:disabled,
+.button:hover:disabled,
+.button:focus:disabled {
+  background: #ccc;
+  color: #979797;
+  cursor: not-allowed;
+}
+
+.loading {
+    text-align: center;
+    animation: loading 1.2s ease-in-out infinite;
+}
+
+@keyframes loading {
+    0% {
+        color: #e9e9e9;
+    }
+    50% {
+        color: #b89b84;
+    }
+    100% {
+        color: #e9e9e9;
+    }
+}
+.loading {
+    text-align: center;
+    animation: loading 1.2s ease-in-out infinite;
+}
+
+@keyframes loading {
+    0% {
+        color: #e9e9e9;
+    }
+    50% {
+        color: #b89b84;
+    }
+    100% {
+        color: #e9e9e9;
+    }
+}
