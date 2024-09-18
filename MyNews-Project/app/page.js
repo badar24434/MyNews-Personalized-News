@@ -8,12 +8,13 @@ export default function Home() {
    <header className={classes.header}>
      <div className={classes.slideshow}> 
        <ImageSlideshow />
-       <News/>
      </div>
      <div>
        <div className={classes.hero}>
          <h1> Discover the latest news around the world</h1>
          <p> Trusted by millions of users worldwide, this news page is the best place to get the latest news on a variety of topics.</p>
+         <p> Give it a try and see for yourself!</p>
+
        </div>
        <div className={classes.cta}>
        <Link href={'/community'}>Join the Community</Link>
